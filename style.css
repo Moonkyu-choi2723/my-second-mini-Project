@@ -1,0 +1,64 @@
+.container{
+    background-color: rgb(131, 148, 160);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.listBox{
+    box-sizing: border-box;
+    border: 5px black solid;
+    border-radius: 10px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+}
+
+h1{
+    margin-top: 50px;
+    margin-bottom: 0px;
+}
+
+
+
+
+
+
+
+
+.typesBox{
+    /*border: 5px solid black;*/
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.dateend{
+    /*border : 1px black solid;*/
+    align-self: center;
+}
+
+
+.valuesadd {
+    border : 1px black solid;
+    border-style: none;
+}
+
+
+
+.date , #select , #text , #time1 , #time2{
+    border: 1.5px solid black;
+    border-radius: 20px;
+    padding : 10px;
+    font-size: 15px;
+}
+
+
+
+button:hover {
+    background-color: beige;
+    transition: background-color 1s;
+}

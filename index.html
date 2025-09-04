@@ -1,0 +1,53 @@
+<!doctype html>
+<html>
+    <head>
+        <title>To-do List</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css"> 
+        <script src="script.js" defer></script>
+    </head>
+
+    <body>
+        
+    <div class="container">
+
+        <div class="typesBox">
+            <div class="dateend">
+            <input type="date" class="date">
+            
+            </div>
+
+            <div class="valuesadd">
+            <select id="select">
+                <option value="">--Choose your Plan Type--</option> 
+                <option value="Study">Study</option>
+                <option value="Exercise">Exercise</option>
+            <option value="Hobby">Hobby</option>
+            </select>
+
+            <input type="text" placeholder="Add your Plan" id="text">
+        
+            <input type="time" id="time1">
+            <input type="time" id="time2">
+
+            <button id="addBtn">Add</button> 
+            </div>
+        </div>
+
+
+        <h1>Today's Plan</h1>
+            <div class="listBox">
+                <ol id="orderList"></ol>
+            </div>
+   
+
+        <div>
+            <button id="Select">Select</button>
+            <button id="Delete">Delete</button>
+        </div>
+
+
+
+    </div>
+    </body>
+</html>
